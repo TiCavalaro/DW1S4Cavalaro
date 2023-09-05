@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          table {
+        border: solid 1px #861b1b;
+    }
+    
+    td, th {
+        border: 1px solid black;
+        padding: 30px 60px;
+        text-align: center;
+    }
+    .custom-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .custom-button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <a href="Sele.html" class="custom-button">Inicio</a>
+
+    <h2>Tabela com Rowspan</h2>
+  <table>
+    <tr>
+      <td>-</td>
+      <th rowspan="2">Rowspan</th>
+    </tr>
+    <tr>
+      <td>-</td>
+    </tr>
+  </table>
+
+  <h2>Tabela com Colspan</h2>
+  <table>
+    <tr>
+      <th colspan="2">Colspan</th>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>-</td>
+
+    </tr>
+  </table>
+
+  <h2>Tabela com Ambos</h2>
+  <table>
+    <tr>
+      <th colspan="2">colspan</th>
+      <td>-</td>
+      <th rowspan="3">Rowspan</th>
+      
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <th colspan="2">colspan</th>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+
+  

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          table {
+        border: solid 1px #861b1b;
+    }
+    
+    td, th {
+        border: 1px solid black;
+        padding: 30px 60px;
+        text-align: center;
+    }
+    .custom-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .custom-button:hover {
+            background-color: #2980b9;
+            transform: scale(1.05);
+        }
+        /* #menor {
+    width: 10%; 
+    } */
+
+    #menor td {
+        padding: 5px; 
+        text-align: center; 
+        border-color: #832e2e;
+    }
+    #yellow{
+        background-color: yellow;
+    }
+
+    #green{
+        background-color: green;
+
+    }
+
+    #red{
+        background-color: red;
+
+    }
+
+    #blue{
+        background-color: blue;
+    }
+    </style>
+</head>
+<body>
+    <a href="Sele.html" class="custom-button">Inicio</a>
+
+  <h2>Tabela com Ambos</h2>
+  <table>
+    <tr id="green">
+      <th colspan="2">colspan</th>
+      <td>-</td>
+      <th rowspan="3">Rowspan</th>
+      
+    </tr>
+    <tr id="red">
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr id="blue">
+      <td>-</td>
+      <th colspan="2">colspan</th>
+    </tr>
+    <tr id="yellow">
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+  </table>
+
+  <h1>--Legenda--</h1>
+  <table id="menor">
+    <tr>
+        <td>Linha 1</td>
+        <td id="green">-----------</td>
+        <td>green</td>
+    </tr>
+    <tr>
+        <td>Linha 2</td>
+        <td id="red">-----------</td>
+        <td>Red</td>
+    </tr>
+    <tr>
+        <td>Linha 3</td>
+        <td id="blue">-----------</td>
+        <td>Blue</td>
+    </tr>
+    <tr>
+        <td>Linha 4</td>
+        <td id="yellow">-----------</td>
+        <td>Yellow</td>
+    </tr>
+  </table>
+</body>
+</html>
+
+
+  
